@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteGame — Мобильные игры</title>
+    <meta name="description" content="ByteGame — разработчик мобильных игр. Игра Bytex2 в Google Play.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Навигация -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-accent">Byte</span>Game
+            </a>
+            <nav class="nav-links">
+                <a href="#games">Игры</a>
+                <a href="#about">О нас</a>
+                <a href="#contact">Контакты</a>
+                <a href="privacy.html" class="nav-link-highlight">Privacy Policy</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный баннер (Hero) -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title">Игры от студии <span class="text-gradient">ByteGame</span></h1>
+            <p class="hero-subtitle">Мы создаем увлекательные мобильные игры для Android.</p>
+            <a href="#games" class="btn btn-primary">Смотреть игры</a>
+        </div>
+    </section>
+
+    <!-- Каталог игр -->
+    <section id="games" class="section games-section">
+        <div class="container">
+            <h2 class="section-title">Наши игры</h2>
+
+            <div class="games-grid">
+                <!-- Карточка игры Bytex2 -->
+                <article class="game-card">
+                    <div class="game-icon-wrapper">
+                        <div class="game-icon-placeholder">Bytex2</div>
+                    </div>
+                    <div class="game-info">
+                        <h3 class="game-title">Bytex2</h3>
+                        <span class="game-genre">Головоломка / Аркада</span>
+                        <p class="game-description">
+                            Увлекательная игра Bytex2 с динамичным геймплеем и интересными уровнями. Проверьте свою реакцию и логику!
+                        </p>
+                        <div class="game-actions">
+                            <a href="https://play.google.com/store/apps/details?id=com.bytegame.bytex2" target="_blank" rel="noopener noreferrer" class="btn btn-google-play">
+                                <svg class="play-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                    <path d="M3.609 1.814L13.792 12 3.61 22.186c-.328-.276-.523-.698-.523-1.186V3c0-.488.195-.91.522-1.186zm11.3 11.3l2.84 2.84-12.872 7.355 10.032-10.195zM19.16 10.3l2.36 1.35c.64.36.64 1.04 0 1.4l-2.36 1.35-2.73-2.73 2.73-2.37zm-4.25-1.5L4.878 1.445 17.75 8.8l-2.84 2.84z"/>
+                                </svg>
+                                <span>Загрузить в Google Play</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- О разработчике -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">О разработчике</h2>
+            <div class="about-card">
+                <p>
+                    <strong>ByteGame</strong> — независимая студия разработки мобильных игр для платформы Android.
+                    Наша цель — создавать качественный, интересный и запоминающийся игровой опыт.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты и Поддержка -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Контакты и Поддержка</h2>
+            <div class="contact-card">
+                <p>Возникли вопросы, предложения или нашли баг в игре?</p>
+                <p class="contact-email">
+                    Email поддержки: <a href="mailto:support@bytegame.com">support@bytegame.com</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; <span id="year"></span> ByteGame. Все права защищены.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
